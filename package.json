@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build index.js",
+    "build": "parcel build index.htm; --no-minify",
     "start": "parcel index.html"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-env": "1.6.1",
+    "babel-preset-minify": "0.2.0",
     "babel-preset-react": "6.24.1",
     "parcel-bundler": "1.0.1",
     "react": "16.2.0",
